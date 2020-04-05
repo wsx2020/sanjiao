@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="generator" content="pandoc">
+  <meta name="author" content="Shuyi Wang">
+  <title>My Beautiful Slide</title>
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+  <link rel="stylesheet" href="reveal.js/css/reset.css">
+  <link rel="stylesheet" href="reveal.js/css/reveal.css">
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <link rel="stylesheet" href="reveal.js/css/theme/league.css" id="theme">
+  <!-- Printing and PDF exports -->
+  <script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'reveal.js/css/print/pdf.css' : 'reveal.js/css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+  </script>
+  <!--[if lt IE 9]>
+  <script src="reveal.js/lib/js/html5shiv.js"></script>
+  <![endif]-->
+</head>
+<body>
+  <div class="reveal">
+    <div class="slides">
+
+<section data-background="#0f82f2" id="title-slide">
+  <h1 class="title">解三角形</h1>
+  <p class="author">王世喜</p>
+  <p class="date">2020年4月</p>
+</section>
+      
+<section  data-background="#0f82f2">
+<section id="introduction" class="title-slide slide level1">
+ <h1>运算素养</h1></section>
+<section id="example01" class="slide level2">
+<h2>2019全国I卷,11</h2>
+<ul>
+<p> 关于函数$f(x)=\sin |x|+|\sin x|$有下述四个结论：</p>
+<p> (1)$f(x)$是偶函数，</p>
+<p> (2)$f(x)$在区间$(\frac{\pi}{2},\pi)$单调递增，</p>
+<p> (3)$f(x)$在$[-\pi,\pi]$有四个零点，</p>
+<p> (4)$f(x)$的最大值为2； </p>
+<p> 其中所有正确结论的编号是 </p>
+<p> A.(1)(2)(4) B.(2)(4) C.(1)(4) D.(1)(3) </p>
+</ul>
+  
+</section><section id="local-image" class="slide level2">
+<h2>local image</h2>
+</section><section id="section" class="slide level2" data-background-image="assets/2019-01-17-10-20-12-756041.png" data-background-size="contain">
+<h2></h2>
+</section><section id="inline-image" class="slide level2">
+<h2>inline image</h2>
+<ul>
+<li class="fragment">text</li>
+<li class="fragment"><img src="assets/2019-01-17-10-20-12-756041.png" style="border-style: none" alt=""></li>
+</ul>
+</section><section id="web-image" class="slide level2">
+<h2>web image</h2>
+</section><section id="section-1" class="slide level2" data-background-image="assets/2019-08-12-18-46-06-105531.jpg" data-background-size="contain">
+<h2></h2>
+</section><section id="video" class="slide level2">
+<h2>video</h2>
+</section><section id="section-2" class="slide level2">
+<h2></h2>
+<video class="stretch" src="assets/markdown2slides-intro.mp4" data-autoplay controls>
+</video>
+</section><section id="the-end" class="slide level2">
+<h2>The End</h2>
+<p>Thanks for your time!</p>
+</section></section>
+    </div>
+  </div>
+
+  <script src="reveal.js/js/reveal.js"></script>
+
+  <script>
+
+      // Full list of configuration options available at:
+      // https://github.com/hakimel/reveal.js#configuration
+      Reveal.initialize({
+
+navigationMode: 'linear', 
+
+        // Push each slide change to the browser history
+        history: true,
+        // Transition style
+        transition: 'convex', // none/fade/slide/convex/concave/zoom
+
+        // Optional reveal.js plugins
+        dependencies: [
+          { src: 'reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+          { src: 'reveal.js/plugin/zoom-js/zoom.js', async: true },
+          { src: 'reveal.js/plugin/math/math.js', async: true },
+          { src: 'reveal.js/plugin/notes/notes.js', async: true }
+        ]
+      });
+    </script>
+    </body>
+</html>
